@@ -30,6 +30,25 @@
   letter-spacing: 1px;
 }
 
+.resume-btn {
+  display: inline-block;
+  margin-top: 28px;
+  padding: 12px 28px;
+  border: 1.5px solid var(--accentColor);
+  color: var(--accentColor);
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.resume-btn:hover {
+  background: var(--accentColor);
+  color: var(--backgroundColor);
+}
+
 @media only screen and (min-width: 600px) {
   .about-section {
     justify-content: center;

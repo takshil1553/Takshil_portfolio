@@ -11,6 +11,14 @@ const About = () => {
           in REST API development, database design with PostgreSQL, SQLite & MongoDB,
           and delivering production-ready solutions from concept to deployment.
         </p>
+        <a
+          href="/resume/Takshil_Resume.pdf"
+          download="Takshil_Resume.pdf"
+          className="resume-btn"
+          data-cursor="disable"
+        >
+          Download Resume
+        </a>
       </div>
     </div>
   );
